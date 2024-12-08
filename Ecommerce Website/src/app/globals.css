@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+
+
+
+.header-container{
+  background-color: #FBEBB5;
+}
+
+
+
+.about-container{
+    background-color: #FBEBB5;
+
+}
+
+
+
+.sec_02{
+  background-color: #FAF4F4;
+}
+
+
+
+
+.sec_04{
+  background-color: #FBEBB5;
+}
+
+
+
+
+.shop_btn{
+    background-color: #FBEBB5;
+
+}
+
+
+
+
+.product_size{
+    background-color: #FBEBB5;
+}
+
+
+
+
+.size_btn{
+  background-color: #CFA965;
+}
